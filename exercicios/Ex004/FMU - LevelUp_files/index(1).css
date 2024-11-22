@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato/Lato-Regular.eot');
+  src: url('../fonts/Lato/Lato-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/Lato/Lato-Regular.woff2') format('woff2'),
+    url('../fonts/Lato/Lato-Regular.woff') format('woff'),
+    url('../fonts/Lato/Lato-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  font-display: fallback;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  letter-spacing: initial !important;
+}
+
+@font-face {
+  font-family: 'LatoSemiBold';
+  src: url('../fonts/Lato/Lato-Semibold.eot');
+  src: url('../fonts/Lato/Lato-Semibold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/Lato/Lato-Semibold.woff2') format('woff2'),
+    url('../fonts/Lato/Lato-Semibold.woff') format('woff'),
+    url('../fonts/Lato/Lato-Semibold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 600;
+  font-display: fallback;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  letter-spacing: initial !important;
+}
+
+@font-face {
+  font-family: 'LatoHeavy';
+  src: url('../fonts/Lato/Lato-Heavy.eot');
+  src: url('../fonts/Lato/Lato-Heavy.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/Lato/Lato-Heavy.woff2') format('woff2'),
+    url('../fonts/Lato/Lato-Heavy.woff') format('woff'),
+    url('../fonts/Lato/Lato-Heavy.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+  font-display: fallback;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  letter-spacing: initial !important;
+}

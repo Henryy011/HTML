@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>AGENDA TELEFÔNICA</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="tel png.jpg" alt="Agenda Telefônica">
+            <h1>Agenda Telefônica</h1>
+        </header>
+       <form id="agenda-tel">
+           <input type="text" required placeholder="Nome do contato" id="contato">
+           <input type="number" required placeholder="Número do contato" id="numero"> 
+           <button type="submit">REGISTRAR CONTATO</button>
+       </form>
+       <table cellspacing="0">
+           <thead>
+               <tr>
+                   <th>Nome do contato</th>
+                   <th>Número do contato</th>
+               </tr>
+           </thead>
+           <tbody>
+               <!-- Linhas de contato aparecerão aqui -->
+           </tbody>
+           <tfoot>
+            <tr>
+                <td>TOTAL DE CONTATOS</td>
+                <td id="total-contatos">0</td>
+            </tr>
+           </tfoot>
+       </table>
+    </div>
+    <footer>
+        &copy; Desenvolvido por <strong>Henry Santos - 2024</strong>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
